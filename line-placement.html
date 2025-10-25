@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Placement</title>
+    <link rel="stylesheet" href="styles/gird.css">
+</head>
+<body>
+    <h1>Line-Based Placement Example</h1>
+
+    <div class="line-grid">
+        <header>Header (spans lines 1-4)</header>
+        <nav>Navigation (lines 1-2)</nav>
+        <main>Main Content (lines 2-3)</main>
+        <aside>Sidebar (lines 3-4)</aside>
+        <footer>Footer (spans lines 1-4)</footer>
+    </div>
+
+    <section class="explanation">
+        <h2>Explanation</h2>
+
+        <p>
+            This layout shows how to use <strong>Line-Based Placement</strong> with CSS Grid. In this method, you position each section of the page by using the numbered grid lines that divide the rows and columns. Instead of naming parts of the grid, 
+            I used line numbers to tell where each element should go.  For example, the <strong>header</strong> goes from line 1 to 4, which makes it stretch across all three columns. The <strong>navigation</strong> is placed in the first column, 
+            the <strong>main content</strong> goes in the middle column, and the <strong>sidebar</strong> is on the right. The <strong>footer</strong> also spans across the bottom, using the same grid line numbers as the header. This method is good 
+            when you want to be exact about where things go. It gives you a lot of control over how each section is placed. The only downside is that it can get a little confusing if your layout gets bigger, since you have to remember all the grid 
+            line numbers.
+        </p>
+    </section>
+</body>
+</html>

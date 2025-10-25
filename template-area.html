@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Area Layout</title>
+    <link rel="stylesheet" href="styles/gird.css">
+</head>
+<body class="template-page">
+    <header class="main-header">
+        <h1>Template Area Example</h1>
+    </header>
+
+    <main class="grid-container template-area-layout">
+        <div class="grid-item header">Header</div>
+        <div class="grid-item nav">Navigation</div>
+        <div class="grid-item sidebar">Sidebar</div>
+        <div class="grid-item main">Main Content</div>
+        <div class="grid-item footer">Footer</div>
+    </main>
+
+    <section class="explanation">
+        <h2>Explanation</h2>
+
+        <p>
+            This layout shows how CSS <strong>Grid Template Areas</strong> can be used to organize a webpage into sections. Each box is labeled as the header, navigation, sidebar, main content, or footer. The header and footer stretch across the full width of the page, while the navigation and main content sit on the left side. 
+            The sidebar is on the right side and takes up the same height as both the navigation and main content. Using grid template areas makes it easier to control where each section goes without having to change the HTML. It’s also helpful for making responsive layouts, since you can rearrange the areas 
+            for smaller screens, like moving the sidebar under the content on mobile.
+        </p>
+    </section>
+</body>
+</html>
